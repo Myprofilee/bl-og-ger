@@ -11,6 +11,8 @@ $(function () {
                         bar += '<nav class="main_nav">';
                             bar += '<ul>';
                                 bar += '<li><a href="/">Home</a></li>';
+                                bar += '<li><a href="/m/category/education/">Education</a></li>';
+                                bar += '<li><a href="/m/category/source-code/">Source Code</a></li>';
                                 bar += '<li><a href="/m/contact/">Contact</a></li>';
                             bar += '</ul>';
                         bar += '</nav>';
