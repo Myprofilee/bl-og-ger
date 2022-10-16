@@ -14,6 +14,9 @@ $(function () {
                                 bar += '<li><a href="/m/category/education/">Education</a></li>';
                                 bar += '<li><a href="/m/category/source-code/">Source Code</a></li>';
                                 bar += '<li><a href="/m/contact/">Contact</a></li>';
+                                bar += '<div class="load_more">';
+                                    bar += '<div id="load_more" class="load_more_button text-center trans_200">Load More</div>';
+                                bar += '</div>';
                             bar += '</ul>';
                         bar += '</nav>';
                         bar += '<div class="search_container ml-auto">';
@@ -63,7 +66,9 @@ $(function () {
         bar += '</div>';
         bar += '<nav class="menu_nav">';
             bar += '<ul class="menu_mm">';
-                bar += '<li class="menu_mm"><a href="/">home</a></li>';
+                bar += '<li class="menu_mm"><a href="/">Home</a></li>';
+                bar += '<li class="menu_mm"><a href="/m/category/education/">Education</a></li>';
+                bar += '<li class="menu_mm"><a href="/m/category/source-code/">Source Code</a></li>';
                 bar += '<li class="menu_mm"><a href="/m/contact/">Contact</a></li>';
             bar += '</ul>';
         bar += '</nav>';
