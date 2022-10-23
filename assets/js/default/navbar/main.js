@@ -13,10 +13,8 @@ $(function () {
                                 bar += '<li><a href="/">Home</a></li>';
                                 bar += '<li><a href="/m/category/education/">Education</a></li>';
                                 bar += '<li><a href="/m/category/source-code/">Source Code</a></li>';
+                                bar += '<li><a href="/m/category/animal/">Animal</a></li>';
                                 bar += '<li><a href="/m/contact/">Contact</a></li>';
-                                bar += '<div class="load_more">';
-                                    bar += '<div id="load_more" class="load_more_button text-center trans_200">Load More</div>';
-                                bar += '</div>';
                             bar += '</ul>';
                         bar += '</nav>';
                         bar += '<div class="search_container ml-auto">';
@@ -59,7 +57,7 @@ $(function () {
             bar += '<!-- Search --';
             bar += '<form action="#">';
                 bar += '<input type="search" class="header_search_input menu_mm" required="required" placeholder="Type to Search...">';
-                bar += '<img class="header_search_icon menu_mm" src="images/search_2.png" alt="">';
+                bar += '<img class="header_search_icon menu_mm" src="images/search_2.png" alt="Blogandre">';
             bar += '</form>';
             bar += '<!-- Search -->';
             <!-- Search --
@@ -69,6 +67,7 @@ $(function () {
                 bar += '<li class="menu_mm"><a href="/">Home</a></li>';
                 bar += '<li class="menu_mm"><a href="/m/category/education/">Education</a></li>';
                 bar += '<li class="menu_mm"><a href="/m/category/source-code/">Source Code</a></li>';
+                bar += '<li class="menu_mm"><a href="/m/category/animal/">Animal</a></li>';
                 bar += '<li class="menu_mm"><a href="/m/contact/">Contact</a></li>';
             bar += '</ul>';
         bar += '</nav>';
